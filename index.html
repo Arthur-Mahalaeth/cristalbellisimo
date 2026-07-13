@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Hanken+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
-    :root{--p:#1a2b4b;--g:#c5a059;--s:#fef9f0;--sc:#f2ede4;--sh:#ede8df;--il:#364768;--b:rgba(197,160,89,.2)}
+    :root{--p:#04288b;--g:#ffca38d0;--s:#fef9f0;--sc:#f2ede4;--sh:#ede8df;--il:#364768;--b:rgba(197,160,89,.2)}
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth}
     body{background:var(--s);color:var(--p);font-family:'Hanken Grotesk',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -24,13 +24,6 @@
     .gold{color:var(--g)}
     .container{max-width:1280px;margin:0 auto;padding:0 56px}
     @media(max-width:768px){.container{padding:0 20px}}
-
-    /* ANN */
-    .ann{background:var(--g);overflow:hidden;padding:9px 0}
-    .ann-t{display:flex;white-space:nowrap;animation:tick 26s linear infinite}
-    .ann-t:hover{animation-play-state:paused}
-    .ann-t span{padding:0 3rem;font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--p)}
-    @keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 
     /* HEADER */
     .hdr{position:sticky;top:0;z-index:300;background:var(--s);border-bottom:1px solid var(--b);transition:box-shadow .3s}
@@ -178,18 +171,6 @@
   </style>
 </head>
 <body>
-
-<!-- ANNOUNCEMENT -->
-<div class="ann"><div class="ann-t">
-  <span data-i18n="a1">✦ Peças únicas feitas à mão nas montanhas do Brasil</span>
-  <span data-i18n="a2">✦ Ouro · Prata 950 · Filigrana · Pedras Naturais Certificadas</span>
-  <span data-i18n="a3">✦ 50 anos de ofício artesanal · Consulte via WhatsApp</span>
-  <span data-i18n="a4">✦ Handmade Jewellery · Joyería Artesanal · Bijoux Artisanaux</span>
-  <span data-i18n="a1">✦ Peças únicas feitas à mão nas montanhas do Brasil</span>
-  <span data-i18n="a2">✦ Ouro · Prata 950 · Filigrana · Pedras Naturais Certificadas</span>
-  <span data-i18n="a3">✦ 50 anos de ofício artesanal · Consulte via WhatsApp</span>
-  <span data-i18n="a4">✦ Handmade Jewellery · Joyería Artesanal · Bijoux Artisanaux</span>
-</div></div>
 
 <!-- HEADER -->
 <header class="hdr" id="hdr">
