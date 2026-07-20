@@ -195,6 +195,34 @@ window.SITE = {
           desc: "Un encuentro entre la piedra oscura y la luz blanca de la piedra de luna. Diseño naturalista que evoca las flores silvestres de las montañas." },
     en: { meta: "Sterling 950 · Sapphire · Moonstone", titulo: "Field Flower",
           desc: "A meeting of dark stone and the white light of moonstone. Naturalist design evoking the wildflowers of the mountains." }
+  },
+
+  /* ==========================================================================
+     4) ATELIÊ / PROCESSO — fotos e VÍDEOS do artesão a trabalhar
+     --------------------------------------------------------------------------
+     • Escreva os textos (rotulo, titulo, intro) em cada idioma — pode manter os
+       que estão ou trocar pelos seus.
+     • itens: as fotos e vídeos. Enquanto estiver VAZIO, a secção fica escondida
+       no site (não mostra nada partido). Assim que puser 1 item, ela aparece.
+     • Guarde os ficheiros na pasta  images/atelie/  e liste-os aqui.
+         - Foto:  "images/atelie/processo-1.jpg"
+         - Vídeo: "images/atelie/torno.mp4"   (deteta o vídeo pelo .mp4 sozinho)
+         - Com legenda (opcional):
+             { src: "images/atelie/filigrana.jpg",
+               legenda: { pt: "Filigrana à mão", es: "Filigrana a mano", en: "Filigree by hand" } }
+     ========================================================================== */
+  atelie: {
+    pt: { rotulo: "O Ateliê", titulo: "As Mãos por Trás da Peça",
+          intro: "Cada joia nasce de horas de trabalho manual — do desenho ao polimento. Aqui partilhamos o processo e as mãos que lhe dão vida." },
+    es: { rotulo: "El Atelier", titulo: "Las Manos Detrás de la Pieza",
+          intro: "Cada joya nace de horas de trabajo manual — del diseño al pulido. Aquí compartimos el proceso y las manos que le dan vida." },
+    en: { rotulo: "The Atelier", titulo: "The Hands Behind the Piece",
+          intro: "Every jewel is born from hours of handwork — from sketch to polish. Here we share the process and the hands that bring it to life." },
+    itens: [
+      // "images/atelie/processo-1.jpg",
+      // "images/atelie/processo.mp4",
+      // { src: "images/atelie/filigrana.jpg", legenda: { pt: "Filigrana à mão", es: "Filigrana a mano", en: "Filigree by hand" } }
+    ]
   }
 
 };
