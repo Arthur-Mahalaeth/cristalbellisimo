@@ -151,10 +151,10 @@ window.SITE = {
 
     {
       fotos: [
-        "images/colecoes/anel-citrino-1.jpg",
-        "images/colecoes/anel-citrino-2.jpg",
-        "images/colecoes/anel-citrino-3.jpg",
-        "images/colecoes/anel-citrino-4.jpg"
+        "images/colecoes/anelcitrino-1.jpg",
+        "images/colecoes/anelcitrino-2.jpg",
+        "images/colecoes/anelcitrino-3.jpg",
+        "images/colecoes/anelcitrino-4.jpg"
       ],
       video: "",
       destaque: false,
